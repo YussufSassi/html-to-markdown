@@ -32,4 +32,4 @@ Acknowledgements
 * [html2md rust crate](https://crates.io/crates/html2md)
 * [Formito icon generator](https://formito.com/tools/favicon)
 
-*(yes, this README was written with this tool. You can find the HTML source in the repo :)*
+*( yes, this README was written with this tool. You can find the HTML source in the repo :) )*
