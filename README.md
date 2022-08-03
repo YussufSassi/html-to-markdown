@@ -1,6 +1,8 @@
 HTML ➡️ Markdown
 ==========
 
+[![publish](https://github.com/YussufSassi/html-to-markdown/actions/workflows/build-and-release.yml/badge.svg)](https://github.com/YussufSassi/html-to-markdown/actions/workflows/build-and-release.yml)
+
 A simple cross-platform desktop app written in tauri with rust and typescript.
 
 This app allows you to instantly convert your html markup into markdown. It comes with a fully-featured code editor that has snippets, auto complete, syntax highlighting and more!
