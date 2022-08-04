@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+HTML ➡️ Markdown
+==========
 
-You can use the [editor on GitHub](https://github.com/YussufSassi/html-to-markdown/edit/web/index.md) to maintain and preview the content for your website in Markdown files.
+[![publish](https://github.com/YussufSassi/html-to-markdown/actions/workflows/build-and-release.yml/badge.svg)](https://github.com/YussufSassi/html-to-markdown/actions/workflows/build-and-release.yml)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+A simple cross-platform desktop app written in tauri with rust and typescript.
 
-### Markdown
+This app allows you to instantly convert your html markup into markdown. It comes with a fully-featured code editor that has snippets, auto complete, syntax highlighting and more!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Commands
+----------
 
-```markdown
-Syntax highlighted code block
+* `npm run tauri dev` - runs the app in development mode (auto-reloads when there are changes)
+* `npm run build` - builds the react  app for production.
+* `npm run tauri build` - builds the tauri app for production.
 
-# Header 1
-## Header 2
-### Header 3
+Features
+----------
 
-- Bulleted
-- List
+* Simple, easy to use and nice looking UI.
+* You can save your work as an md file with the click of a button or a keyboard shortcut (CTRL + S)
+* Fully featured code editor (Ace) so you can easily write your markup inside of the app.
 
-1. Numbered
-2. List
+ Releases
+----------
 
-**Bold** and _Italic_ and `Code` text
+You can find the latest release [Here](https://github.com/YussufSassi/html-to-markdown/releases/latest)
 
-[Link](url) and ![Image](src)
-```
+Acknowledgements
+----------
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+* [Tauri](https://tauri.app)
+* [DaisyUI / TailwindCSS](https://daisyui.com)
+* [html2md rust crate](https://crates.io/crates/html2md)
+* [Formito icon generator](https://formito.com/tools/favicon)
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/YussufSassi/html-to-markdown/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+*( yes, this README was written with this tool. You can find the HTML source in the repo :) )*
